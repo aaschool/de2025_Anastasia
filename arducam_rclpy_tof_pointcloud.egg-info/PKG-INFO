@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: arducam_rclpy_tof_pointcloud
+Version: 0.0.1
+Summary: Arducam Tof Camera Examples.
+Author: arducam
+Author-email: dennis@arducam.com
+Maintainer: arducam
+Maintainer-email: dennis@arducam.com
+License: Apache License, Version 2.0
+Keywords: ROS
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Requires-Dist: setuptools

@@ -1,0 +1,2 @@
+[console_scripts]
+tof_pointcloud = arducam_rclpy_tof_pointcloud.tof_pointcloud:main
