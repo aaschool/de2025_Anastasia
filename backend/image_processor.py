@@ -5,7 +5,10 @@ import os
 
 # Load the trained machine learning model
 MODEL_PATH = "models/trained_model.pth"
-model = torch.load(MODEL_PATH, map_location=torch.device('cpu'))
+from models.train_model import StoneClassifier  # Import the model class
+
+model = torch.load(MODEL_PATH, map_location=torch.device('cpu'), weights_only=False)
+
 model.eval()
 
 # Define image preprocessing function
