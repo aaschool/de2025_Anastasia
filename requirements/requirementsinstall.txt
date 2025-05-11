@@ -1,0 +1,10 @@
+opencv-python
+numpy
+fastapi
+uvicorn
+flask
+torch
+matplotlib
+RPi.GPIO
+picamera2
+open3d
